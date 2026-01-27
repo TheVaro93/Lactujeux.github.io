@@ -3,243 +3,114 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dossier | Watch Dogs : un projet “Underground” en préparation ?</title>
-  <meta name="description" content="Rumeur : Ubisoft travaillerait en discret sur un prototype Watch Dogs à Paris, baptisé 'Underground' en interne. Informations non confirmées." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750&display=swap" rel="stylesheet">
+  <title>Rumeur : Watch Dogs “Underground” en développement ?</title>
+  <meta name="description" content="Un article sobre qui relaie une rumeur autour d’un possible nouveau Watch Dogs situé à Paris." />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <a class="skip" href="#contenu">Aller au contenu</a>
-
-  <header class="site-header">
-    <div class="wrap header-row">
+  <header class="top">
+    <div class="wrap">
       <div class="brand">
-        <div class="brand-mark" aria-hidden="true"></div>
-        <div class="brand-text">
-          <div class="brand-name">Le Signal</div>
-          <div class="brand-tag">Jeux vidéo • Tech • Culture</div>
-        </div>
-      </div>
-
-      <nav class="nav">
-        <a href="#article">Article</a>
-        <a href="#timeline">Chronologie</a>
-        <a href="#sources">Sources</a>
-      </nav>
-
-      <button class="btn ghost" id="themeBtn" type="button" aria-label="Basculer le thème">
-        Thème
-      </button>
-    </div>
-
-    <div class="wrap hero">
-      <div class="hero-top">
-        <span class="pill">Dossier</span>
-        <span class="meta-dot" aria-hidden="true">•</span>
-        <span class="meta">Mis à jour <time id="updatedAt" datetime=""></time></span>
-      </div>
-
-      <h1 class="title">Watch Dogs : un projet “Underground” en préparation chez Ubisoft ?</h1>
-
-      <p class="subtitle">
-        Plusieurs indices laissent penser qu’un prototype interne lié à Watch Dogs serait en cours d’exploration,
-        avec Paris comme terrain de jeu. Rien d’officiel, et beaucoup d’inconnues.
-      </p>
-
-      <div class="hero-actions">
-        <a class="btn" href="#article">Lire l’article</a>
-        <button class="btn ghost" id="copyLinkBtn" type="button">Copier le lien</button>
-      </div>
-
-      <div class="hero-grid">
-        <figure class="cover">
-          <img src="cover.jpg" alt="Illustration de couverture : Watch Dogs Underground (concept)" loading="lazy" />
-          <figcaption>Visuel d’illustration (concept). Les éléments ci-dessous restent non confirmés.</figcaption>
-        </figure>
-
-        <aside class="side-card">
-          <div class="side-title">En bref</div>
-          <ul class="bullets">
-            <li><strong>Statut :</strong> rumeur / prototype interne</li>
-            <li><strong>Nom évoqué :</strong> “Underground”</li>
-            <li><strong>Cadre :</strong> Paris (centre + réseaux métro)</li>
-            <li><strong>Tonalité :</strong> retour au hacking “terrain”</li>
-          </ul>
-
-          <div class="divider"></div>
-
-          <div class="tweet-card" id="sources">
-            <div class="tweet-head">
-              <div class="avatar" aria-hidden="true"></div>
-              <div>
-                <div class="tweet-name">dedsec_leaks</div>
-                <div class="tweet-handle">@dedsec_leaks</div>
-              </div>
-              <span class="tweet-badge">Capture</span>
-            </div>
-
-            <p class="tweet-text">
-              Plusieurs sources évoquent un <strong>prototype Watch Dogs</strong> en développement très discret chez Ubisoft.
-              Rien d’annoncé, rien de confirmé. Après Legion, le projet serait encore en phase d’expérimentation.
-              <br><br>
-              À prendre avec de grosses pincettes.
-            </p>
-
-            <div class="tweet-foot">
-              <time id="tweetDate" datetime=""></time>
-              <span class="dot" aria-hidden="true">•</span>
-              <button class="linklike" id="toggleDisclosure" type="button">Afficher l’avertissement</button>
-            </div>
-
-            <div class="disclosure" id="disclosure" hidden>
-              <strong>Note :</strong> ce contenu relate une rumeur non confirmée. Il n’existe, à notre connaissance,
-              aucun communiqué officiel à ce sujet.
-            </div>
-          </div>
-        </aside>
+        <a class="logo" href="#">Le Signal</a>
+        <nav class="nav">
+          <a href="#article">Article</a>
+          <a href="#infos">En bref</a>
+          <a href="#note">Note</a>
+        </nav>
       </div>
     </div>
   </header>
 
-  <main class="wrap main" id="contenu">
-    <article class="article" id="article">
-      <div class="kicker">Analyse</div>
-
-      <h2>Ce que l’on croit savoir (et ce qu’on ignore)</h2>
-      <p>
-        D’après plusieurs échos concordants circulant dans des cercles de discussion proches de l’industrie,
-        Ubisoft aurait relancé en interne une réflexion autour de <em>Watch Dogs</em>. Le nom “Underground”
-        reviendrait de manière insistante, sans qu’il soit clair s’il s’agit d’un titre de travail,
-        d’un nom de code, ou d’une simple piste.
+  <main class="wrap">
+    <section class="hero">
+      <p class="kicker">Jeux vidéo • Rumeurs</p>
+      <h1>Watch Dogs : un projet “Underground” à Paris serait en préparation</h1>
+      <p class="sub">
+        Plusieurs discussions et captures laissent penser qu’un prototype interne lié à Watch Dogs
+        serait en exploration chez Ubisoft. Rien d’officiel, et beaucoup de prudence.
       </p>
+      <p class="meta">
+        Publié le <time id="datePub" datetime=""></time> • <span class="muted">lecture ~3 min</span>
+      </p>
+    </section>
 
-      <div class="callout">
+    <section class="grid">
+      <article id="article" class="paper">
+        <h2>Ce qu’on sait</h2>
         <p>
-          <strong>Important :</strong> rien ne permet d’affirmer qu’un jeu est “confirmé”.
-          À ce stade, on parle plutôt d’un <strong>prototype</strong> ou d’une <strong>pré-production</strong>
-          susceptible d’évoluer… ou d’être stoppée.
+          La rumeur parle d’un prototype en cours de tests, parfois appelé “Underground”.
+          À ce stade, il est impossible de dire si le projet deviendra un jeu complet.
         </p>
-      </div>
 
-      <h3>Pourquoi Paris ?</h3>
-      <p>
-        Paris offre un contraste intéressant entre monuments iconiques, zones denses, réseau de métro
-        et architecture variée. Dans le cadre d’un jeu centré sur l’infiltration urbaine et le hacking,
-        ce mélange peut servir à construire des missions à la fois visuelles et “systémiques”.
-      </p>
-
-      <h3>Un retour à l’ADN “hacker de rue”</h3>
-      <p>
-        Le bruit de couloir parle d’une approche plus resserrée : moins de “gadgetisation”,
-        plus de situations où l’information et la manipulation de l’environnement comptent autant
-        que l’action. L’idée d’un héros plus discret, presque anonyme, collerait au concept d’“Underground”.
-      </p>
-
-      <h3>Ce que la rumeur ne dit pas</h3>
-      <ul>
-        <li>Aucune fenêtre de sortie crédible n’est évoquée.</li>
-        <li>Pas de confirmation sur la plateforme (PC/console) ni sur un éventuel cross-gen.</li>
-        <li>Pas d’indication fiable sur le studio principal (Montréal, Paris, etc.).</li>
-      </ul>
-
-      <h2>Chronologie des indices</h2>
-      <section class="timeline" id="timeline" aria-label="Chronologie">
-        <div class="tl-item">
-          <div class="tl-date">Semaine -6</div>
-          <div class="tl-body">
-            <div class="tl-title">Premiers murmures</div>
-            <p>Des discussions internes “prototype” apparaissent dans plusieurs cercles non publics.</p>
-          </div>
-        </div>
-
-        <div class="tl-item">
-          <div class="tl-date">Semaine -2</div>
-          <div class="tl-body">
-            <div class="tl-title">Le nom “Underground” circule</div>
-            <p>Le terme est repris par plusieurs comptes et forums, sans source unique identifiable.</p>
-          </div>
-        </div>
-
-        <div class="tl-item">
-          <div class="tl-date">Aujourd’hui</div>
-          <div class="tl-body">
-            <div class="tl-title">Synthèse prudente</div>
-            <p>On consolide les éléments, sans transformer une hypothèse en certitude.</p>
-          </div>
-        </div>
-      </section>
-
-      <h2>Comment lire ce type d’info</h2>
-      <p>
-        Les prototypes existent, les pistes changent, et beaucoup de projets ne dépassent jamais
-        le stade interne. La prudence n’est pas un “détail” : c’est le cœur du sujet.
-      </p>
-
-      <div class="footnote">
+        <h2>Pourquoi Paris revient souvent</h2>
         <p>
-          <strong>Transparence :</strong> cet article compile une rumeur et des éléments indirects.
-          Il ne s’agit pas d’une confirmation officielle.
+          Paris coche beaucoup de cases : densité, contrastes visuels, monuments, ruelles, périphérie,
+          et un réseau de métro parfait pour un gameplay “infiltration + hacking”.
         </p>
-      </div>
-    </article>
 
-    <aside class="aside">
-      <div class="sticky">
-        <div class="card">
-          <div class="card-title">Sommaire</div>
-          <div class="toc">
-            <a href="#article">1) Article</a>
-            <a href="#timeline">2) Chronologie</a>
-            <a href="#sources">3) Capture</a>
+        <h2>Une approche plus “terrain”</h2>
+        <p>
+          Les mêmes sources évoquent un retour à quelque chose de plus resserré : plus de hacking
+          concret (caméras, accès, réseaux), moins de surenchère. À prendre avec de grosses pincettes.
+        </p>
+
+        <h2>Ce qui manque</h2>
+        <ul>
+          <li>Aucun studio principal confirmé.</li>
+          <li>Aucune date de sortie crédible.</li>
+          <li>Aucune info fiable sur plateformes ou fonctionnalités.</li>
+        </ul>
+
+        <h2 id="note">Note importante</h2>
+        <p class="note">
+          Cet article relate une <strong>rumeur non confirmée</strong>. Il ne s’agit pas d’une annonce officielle.
+          Le sujet peut évoluer ou être abandonné en interne.
+        </p>
+      </article>
+
+      <aside class="side">
+        <div class="box" id="infos">
+          <h3>En bref</h3>
+          <ul class="clean">
+            <li><span class="muted">Statut</span> : rumeur / prototype</li>
+            <li><span class="muted">Nom évoqué</span> : “Underground”</li>
+            <li><span class="muted">Cadre</span> : Paris</li>
+            <li><span class="muted">Tonalité</span> : retour au hacking</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>Capture</h3>
+          <div class="tweet">
+            <div class="tweet-top">
+              <strong>dedsec_leaks</strong>
+              <span class="muted">@dedsec_leaks</span>
+            </div>
+            <p>
+              Plusieurs sources évoquent un prototype Watch Dogs en développement discret.
+              Rien d’annoncé, rien de confirmé. À prendre avec de grosses pincettes.
+            </p>
+            <p class="muted small">
+              <time id="dateTweet" datetime=""></time>
+            </p>
           </div>
+          <button class="smallbtn" id="copyBtn" type="button">Copier le lien</button>
         </div>
 
-        <div class="card">
-          <div class="card-title">Fiche rapide</div>
-          <dl class="facts">
-            <div>
-              <dt>Projet</dt>
-              <dd>Prototype interne (rumeur)</dd>
-            </div>
-            <div>
-              <dt>Nom</dt>
-              <dd>“Underground” (non confirmé)</dd>
-            </div>
-            <div>
-              <dt>Lieu</dt>
-              <dd>Paris</dd>
-            </div>
-            <div>
-              <dt>Confiance</dt>
-              <dd><span class="meter" data-level="2">Faible à moyenne</span></dd>
-            </div>
-          </dl>
+        <div class="box">
+          <h3>Visuel</h3>
+          <p class="muted small">Place ta jaquette en <strong>cover.jpg</strong>.</p>
+          <img class="cover" src="cover.jpg" alt="Jaquette Watch Dogs Underground (concept)" />
         </div>
-
-        <div class="card subtle">
-          <div class="card-title">Astuce</div>
-          <p class="muted">
-            Tu peux remplacer la capture par ton vrai tweet, et “cover.jpg” par ta jaquette.
-          </p>
-        </div>
-      </div>
-    </aside>
+      </aside>
+    </section>
   </main>
 
-  <footer class="footer">
-    <div class="wrap footer-row">
-      <div class="footer-left">
-        <div class="brand-name">Le Signal</div>
-        <div class="muted">© <span id="year"></span> — Dossier rumeur / non confirmé.</div>
-      </div>
-      <div class="footer-right">
-        <button class="linklike" id="printBtn" type="button">Imprimer</button>
-        <span class="dot" aria-hidden="true">•</span>
-        <button class="linklike" id="topBtn" type="button">Haut de page</button>
-      </div>
+  <footer class="foot">
+    <div class="wrap footrow">
+      <span class="muted">© <span id="year"></span> — Le Signal</span>
+      <button class="link" id="topBtn" type="button">Haut de page</button>
     </div>
   </footer>
 
