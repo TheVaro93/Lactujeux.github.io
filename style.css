@@ -67,6 +67,33 @@ ul {
   padding-left: 18px;
 }
 
+.media-slot {
+  margin: 24px 0;
+  padding: 30px;
+  border: 1px dashed #ccc;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+
+.tweet-slot {
+  margin: 24px 0;
+  padding: 16px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  font-size: 14px;
+}
+
+.sources {
+  margin-top: 30px;
+  padding-top: 14px;
+  border-top: 1px solid #ddd;
+}
+
+.sources h4 {
+  margin: 0 0 8px;
+}
+
 .note {
   margin-top: 30px;
   padding: 12px;
