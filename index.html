@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Le Signal — Rumeur : Watch Dogs Underground serait en développement</title>
+  <meta name="description" content="Selon plusieurs sources, un prototype Watch Dogs à Paris serait en développement discret chez Ubisoft. Informations non confirmées." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="pill" id="liveDot" aria-hidden="true"></span>
+        <span class="topbar__live">Direct</span>
+        <span class="topbar__sep">•</span>
+        <span class="topbar__date" id="todayDate">—</span>
+      </div>
+      <div class="topbar__right">
+        <button class="iconbtn" id="themeBtn" type="button" aria-label="Changer de thème">
+          <span class="icon">◐</span>
+        </button>
+        <button class="btn" id="copyBtn" type="button">Copier le lien</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top">
+        <span class="brand__mark">◆</span>
+        <span class="brand__name">Le Signal</span>
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#article">Article</a>
+        <a href="#resume">Résumé</a>
+        <a href="#indices">Indices</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <button class="menubtn" id="menuBtn" type="button" aria-label="Ouvrir le menu">
+        ☰
+      </button>
+    </div>
+
+    <div class="container navmobile" id="navMobile" hidden>
+      <a href="#article">Article</a>
+      <a href="#resume">Résumé</a>
+      <a href="#indices">Indices</a>
+      <a href="#faq">FAQ</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <div class="kicker">Jeux vidéo • Rumeurs</div>
+          <h1 class="title">Rumeur : un nouveau <span class="accent">Watch Dogs</span> à Paris serait en développement</h1>
+          <p class="lead">
+            Après l’accueil mitigé de Legion, Ubisoft testerait en interne un prototype centré sur le hacking “pur”
+            et l’infiltration. Nom de code évoqué : <strong>Underground</strong>. Rien n’est confirmé.
+          </p>
+
+          <div class="meta">
+            <div class="meta__item">
+              <span class="meta__label">Par</span>
+              <span class="meta__value">Rédaction Tech</span>
+            </div>
+            <div class="meta__item">
+              <span class="meta__label">Mise à jour</span>
+              <span class="meta__value" id="updateTime">—</span>
+            </div>
+            <div class="meta__item">
+              <span class="meta__label">Crédibilité</span>
+              <span class="meta__value">
+                <span class="meter" aria-label="Crédibilité estimée">
+                  <span class="meter__fill" style="width:42%"></span>
+                </span>
+                <span class="muted">faible à moyenne</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="actions">
+            <a class="btn btn--primary" href="#article">Lire l’article</a>
+            <a class="btn btn--ghost" href="#resume">Voir le résumé</a>
+          </div>
+
+          <div class="notice" role="note">
+            <strong>Projet scolaire :</strong> page de fiction (fake news) réalisée pour un exercice d’arts plastiques.
+          </div>
+        </div>
+
+        <div class="hero__right">
+          <div class="card cover">
+            <div class="cover__img" role="img" aria-label="Jaquette Watch Dogs Underground (illustration)">
+              <img src="cover.png" alt="Illustration de jaquette Watch Dogs Underground" onerror="this.closest('.cover__img').classList.add('cover__img--fallback')" />
+              <div class="cover__fallback">
+                <div class="cover__fallbackTitle">WATCH DOGS<br/><span>UNDERGROUND</span></div>
+                <div class="cover__fallbackSub">Illustration non fournie</div>
+              </div>
+            </div>
+            <div class="card__body">
+              <div class="row">
+                <span class="tag">Paris</span>
+                <span class="tag">Prototype</span>
+                <span class="tag">Pré-production</span>
+              </div>
+              <p class="muted small">
+                Image illustrative. Les éléments ci-dessous relèvent d’informations non confirmées.
+              </p>
+            </div>
+          </div>
+
+          <div class="card ticker">
+            <div class="card__body">
+              <div class="ticker__head">
+                <span class="ticker__title">Fil “Direct”</span>
+                <span class="ticker__badge" id="tickerBadge">MàJ</span>
+              </div>
+              <ul class="ticker__list" id="tickerList">
+                <li>Des sources évoquent un prototype discret en test depuis 2024.</li>
+                <li>Retour au hacking et à une ville unique (Paris).</li>
+                <li>Statut incertain : expérimentation, pas d’annonce prévue.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container layout">
+      <article class="article" id="article">
+        <div class="article__head">
+          <h2>Ce que l’on sait (et ce que l’on ne sait pas)</h2>
+          <p class="muted">
+            Nous rapportons une rumeur attribuée à des sources non publiques. Aucune confirmation officielle à ce stade.
+          </p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <div class="card__body">
+              <h3>Le contexte</h3>
+              <p>
+                La licence Watch Dogs a connu des hauts et des bas. Depuis, Ubisoft multiplie les tests internes
+                et prototypes pour relancer certaines franchises. Dans ce cadre, un “petit” projet exploratoire
+                ne serait pas surprenant.
+              </p>
+              <p class="muted small">
+                Lecture possible : un prototype peut être annulé sans jamais être annoncé.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__body">
+              <h3>Le cœur de la rumeur</h3>
+              <p>
+                Un compte orienté “leaks” affirme avoir entendu parler d’un prototype Watch Dogs se déroulant
+                à Paris, avec une ambiance plus sombre et un hacking plus central.
+              </p>
+
+              <div class="tweet" role="figure" aria-label="Extrait de tweet">
+                <div class="tweet__top">
+                  <div class="tweet__avatar" aria-hidden="true"></div>
+                  <div>
+                    <div class="tweet__name">dedsec_leaks</div>
+                    <div class="tweet__handle">@dedsec_leaks • <span id="tweetTime">il y a quelques heures</span></div>
+                  </div>
+                </div>
+                <div class="tweet__text" id="tweetText">
+                  🧵 Plusieurs sources évoquent un prototype Watch Dogs en développement discret chez Ubisoft.
+                  Rien d’annoncé, rien de confirmé. À prendre avec de grosses pincettes.
+                </div>
+                <div class="tweet__meta">
+                  <span>💬 142</span><span>🔁 321</span><span>❤️ 1 904</span>
+                </div>
+              </div>
+
+              <div class="hint">
+                <strong>Indice de crédibilité :</strong> le ton prudent et l’absence de date rendent la rumeur plus plausible,
+                mais ça ne prouve rien.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__body">
+            <h3>“Watch Dogs: Underground” — ce que le prototype impliquerait</h3>
+            <div class="bullets">
+              <div class="bullet">
+                <div class="bullet__dot"></div>
+                <div>
+                  <strong>Ville unique : Paris</strong>
+                  <div class="muted">Un terrain dense : métro, toits, ruelles, monuments, quartiers contrastés.</div>
+                </div>
+              </div>
+              <div class="bullet">
+                <div class="bullet__dot"></div>
+                <div>
+                  <strong>Hacking recentré</strong>
+                  <div class="muted">Plus d’outils, plus d’infiltration, moins de “système de recrutement”.</div>
+                </div>
+              </div>
+              <div class="bullet">
+                <div class="bullet__dot"></div>
+                <div>
+                  <strong>Ambiance plus sombre</strong>
+                  <div class="muted">Retour à une tension proche du premier épisode.</div>
+                </div>
+              </div>
+              <div class="bullet">
+                <div class="bullet__dot"></div>
+                <div>
+                  <strong>Statut incertain</strong>
+                  <div class="muted">Prototype = possible annulation ou transformation en autre projet.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <h3 id="resume">Résumé en 20 secondes</h3>
+            <p class="summary">
+              Une rumeur parle d’un prototype Watch Dogs “Underground” à Paris. Le projet serait discret, expérimental,
+              sans annonce officielle. C’est plausible… mais non vérifié.
+            </p>
+
+            <div class="callout" role="note">
+              <div class="callout__title">À retenir</div>
+              <p class="callout__text">
+                Les prototypes internes existent souvent dans l’industrie. La majorité ne deviennent jamais des jeux annoncés.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid2" id="indices">
+          <div class="card">
+            <div class="card__body">
+              <h3>Indices “faibles” cités</h3>
+              <ul class="list">
+                <li>Retour supposé à une narration plus personnelle.</li>
+                <li>Focus sur le métro et les souterrains (d’où “Underground”).</li>
+                <li>Paris comme terrain “vertical” (toits / monuments).</li>
+              </ul>
+              <p class="muted small">
+                Ces éléments peuvent être inventés, inspirés, ou réinterprétés.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card__body">
+              <h3>Ce qui manque (et qui manque toujours dans les vrais leaks)</h3>
+              <ul class="list">
+                <li>Aucune date, aucune plateforme.</li>
+                <li>Aucun nom d’équipe, aucun studio précis.</li>
+                <li>Aucun document, aucun visuel authentifié.</li>
+              </ul>
+              <p class="muted small">
+                L’absence de preuves réduit fortement la fiabilité.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="faq">
+          <div class="card__body">
+            <h3>FAQ</h3>
+
+            <details class="faq">
+              <summary>Est-ce officiel ?</summary>
+              <p>Non. C’est une rumeur rapportée comme telle.</p>
+            </details>
+
+            <details class="faq">
+              <summary>Pourquoi Paris ?</summary>
+              <p>Paris est un décor reconnaissable et cohérent avec l’univers “surveillance / infrastructure”.</p>
+            </details>
+
+            <details class="faq">
+              <summary>Pourquoi “Underground” ?</summary>
+              <p>Le nom évoque les souterrains, le métro et une résistance “en dessous” des systèmes.</p>
+            </details>
+
+            <details class="faq">
+              <summary>Pourquoi parler de crédibilité si c’est une fake news ?</summary>
+              <p>
+                Parce qu’une fake news crédible imite les codes : prudence, incertitude, et formulation conditionnelle.
+              </p>
+            </details>
+
+            <div class="divider"></div>
+            <p class="muted small">
+              Note : cette page est un <strong>exercice de fiction</strong>. Ne pas diffuser comme information réelle.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <aside class="sidebar">
+        <div class="card">
+          <div class="card__body">
+            <h3>Baromètre</h3>
+            <div class="score">
+              <div class="score__big" id="scoreBig">42</div>
+              <div class="score__meta">
+                <div class="muted">Indice de plausibilité</div>
+                <div class="small">basé sur cohérence + prudence</div>
+              </div>
+            </div>
+            <div class="progress" aria-label="Indice de plausibilité">
+              <div class="progress__bar" id="scoreBar" style="width:42%"></div>
+            </div>
+            <div class="small muted">Ce score n’est pas scientifique.</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__body">
+            <h3>À afficher sur ton site</h3>
+            <div class="mini">
+              <div class="mini__label">Pseudo leak</div>
+              <div class="mini__value">@dedsec_leaks</div>
+            </div>
+            <div class="mini">
+              <div class="mini__label">Titre conseillé</div>
+              <div class="mini__value">“Rumeur : un Watch Dogs à Paris…”</div>
+            </div>
+            <div class="mini">
+              <div class="mini__label">Règle d’or</div>
+              <div class="mini__value">Jamais “confirmé”, toujours “évoqué”.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__body">
+            <h3>Petite touche “journal”</h3>
+            <p class="muted">
+              Appuie le côté crédible avec une mise en page sobre, un ton prudent, et un encadré “Ce qu’on ne sait pas”.
+            </p>
+            <a class="btn btn--ghost wfull" href="#top">Retour en haut</a>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <div class="brand brand--footer">
+            <span class="brand__mark">◆</span>
+            <span class="brand__name">Le Signal</span>
+          </div>
+          <div class="muted small">
+            Page fictive — exercice scolaire (arts plastiques). Aucun lien avec Ubisoft.
+          </div>
+        </div>
+        <div class="footer__right">
+          <span class="muted small">© <span id="year">2026</span> — Fiction</span>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
